@@ -11,6 +11,7 @@ class _MovieListState extends State<MovieList> {
   int? moviesCount;
   List? movies;
   HttpService? service;
+  String imgPath = 'https://image.tmdb.org/t/p/w185';
 
   Future initialize() async {
     movies = [];
@@ -41,6 +42,16 @@ class _MovieListState extends State<MovieList> {
             color: Colors.white,
             elevation: 2.0,
             child: ListTile(
+              leading: Container(
+                  width: 50.0,
+                  height: 50.0,
+                  decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      image: DecorationImage(
+                        fit: BoxFit.fill,
+                        image: NetworkImage(
+                            imgPath + movies?[position].posterPath),
+                      ))),
               title: Text(movies?[position].originalTitle),
               subtitle:
                   Text('Rating = ${movies?[position].voteAverage.toString()}'),
