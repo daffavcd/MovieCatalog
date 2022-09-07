@@ -1,16 +1,17 @@
-# jb7
+# REST API HTTP Movie Catalog
 
-A new Flutter project.
+## Trying fetching popular movie
+<img src="/sss/1.png" title="Screenshot 1"/>
 
-## Getting Started
+## Accept type json and putting on card
+<img src="/sss/2.png" title="Screenshot 2"/>
 
-This project is a starting point for a Flutter application.
+## Adding thumbnail to card
+<img src="/sss/3.png" title="Screenshot 3"/>
 
-A few resources to get you started if this is your first Flutter project:
+## Details movie page
+<img src="/sss/4.png" title="Screenshot 4"/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## REST API HTTP Movie Catalog
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+fetching popular movie from https://www.themoviedb.org/
